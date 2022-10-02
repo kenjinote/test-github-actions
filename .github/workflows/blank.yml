@@ -20,5 +20,5 @@ jobs:
         echo 'NAME=1.0.0' >> $GITHUB_ENV
     - name: Display Environment
       run: |
-        echo $env:VERSION
-        echo $env:NAME
+        echo $env.VERSION
+        echo $env.NAME
